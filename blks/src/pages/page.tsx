@@ -34,10 +34,10 @@ export default function Page() {
   const navigate = useNavigate();
 
   return (
-    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 
       <SidebarProvider>
-        <AppSidebar />
+        <AppSidebar/>
 
         <Drawer>
               
